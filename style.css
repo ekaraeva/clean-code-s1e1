@@ -112,21 +112,21 @@ input,.button{
 .input__square {
     margin: 0 10px;
 }
-li > label {
+.label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+.main .task {
     width: 226px
 }
-button.delete img {
+.arrow {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.arrow:hover {
     transform: rotateZ(0);
 }
 
