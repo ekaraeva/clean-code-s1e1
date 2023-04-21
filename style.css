@@ -136,7 +136,7 @@ input,.button{
 }
 
 /* Edit Task */
-.main__completed_task {
+.edited_task {
     display: none;
 }
 
