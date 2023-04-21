@@ -29,7 +29,8 @@ body {
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.task,
+.list__item_label {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -47,7 +48,9 @@ body {
 input,.button{
     outline: none;
 }
-.button {
+.button_edit,
+.button_delete,
+.button_add {
     background: none;
     border: 0px;
     color: #888;
@@ -104,14 +107,14 @@ input,.button{
     justify-content: space-between;
     align-items: center;
 }
-/* li > * {
+li > * {
     vertical-align: middle;
-} */
+}
 
 .input__square {
     margin: 0 10px;
 }
-.label {
+.list__item_label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
