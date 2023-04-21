@@ -131,7 +131,7 @@ input,.button{
 }
 
 /* Completed */
-ul#completed-tasks label {
+.main__completed_label {
     text-decoration: line-through;
     color: #888;
 }
